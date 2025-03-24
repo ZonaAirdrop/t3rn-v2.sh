@@ -46,7 +46,7 @@ install_executor() {
 
     # Ask for private key (securely)
     echo -e "${YELLOW}Enter YOUR_PRIVATE_KEY:${NC}"
-    read -sp "" YOUR_PRIVATE_KEY
+    read -sp "" PRIVATE_KEY_LOCAL
     echo ""
 
     # Set directory paths
